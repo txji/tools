@@ -21,3 +21,17 @@ compatible：IE6+, Firefox, Opera, Safari and Chrome
 	<script type="text/javascript" src="/local/path/to/firebug-lite.js"></script>
 
 ###2.截图测量工具 FSCapture
+
+###3.常用标签类工具
+
+* 获取页面中DOM的数量
+
+		javascript:(function(){alert(document.getElementsByTagName('*').length);})();
+
+* 获取页面中IMG的数量
+
+		javascript:(function(){alert(document.getElementsByTagName('img').length);})();
+
+* 查看透明图片时，方便查看白色部分
+
+		javascript:(function(){document.body.style.backgroundColor='#aaa'})();
