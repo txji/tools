@@ -1,6 +1,6 @@
 ## 前端相关的工具
 
-1.调试工具 Firebug lite
+###1.调试工具 Firebug lite
 
 compatible：IE6+, Firefox, Opera, Safari and Chrome
 
@@ -19,3 +19,5 @@ compatible：IE6+, Firefox, Opera, Safari and Chrome
 3).引入下载的本地firebug lite代码
 
 	<script type="text/javascript" src="/local/path/to/firebug-lite.js"></script>
+
+###2.截图测量工具 FSCapture
