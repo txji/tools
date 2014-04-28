@@ -35,3 +35,9 @@ compatible：IE6+, Firefox, Opera, Safari and Chrome
 * 查看透明图片时，方便查看白色部分
 
 		javascript:(function(){document.body.style.backgroundColor='#aaa'})();
+
+###4.对比工具 BCompare
+
+###5.截图生成GIF工具 GifCam
+
+###6.Ctrip IMG Zip Tools(imgzip2012-6-4.7z)
