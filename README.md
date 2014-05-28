@@ -38,6 +38,6 @@ compatible：IE6+, Firefox, Opera, Safari and Chrome
 
 ###4.对比工具 BCompare
 
-###5.截图生成GIF工具 GifCam
+###5.截图生成GIF工具 GifCam / LICEcap
 
 ###6.Ctrip IMG Zip Tools(imgzip2012-6-4.7z)
