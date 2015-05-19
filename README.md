@@ -41,3 +41,20 @@ compatible：IE6+, Firefox, Opera, Safari and Chrome
 ###5.截图生成GIF工具 GifCam / LICEcap
 
 ###6.Ctrip IMG Zip Tools(imgzip2012-6-4.7z)
+
+###7.获取性能参数
+
+		javascript:(function(){
+		    if(!window.performance){
+		        alert('您的浏览器暂不支持window.performance,请更换浏览器试试！');
+		    }else{
+		        var Dns=0,Connect=0,Request=0,Response=0,Blank=0,Domready=0,Onload=0,Timeline=window.performance.timing;
+		        Dns=Timeline.domainLookupEnd-Timeline.domainLookupStart;
+		        Connect=Timeline.connectEnd-Timeline.connectStart;
+		        Response=Timeline.responseEnd-Timeline.responseStart;
+		        Blank=Timeline.domInteractive-Timeline.responseStart;
+		        Domready=Timeline.domContentLoadedEventEnd-Timeline.navigationStart;
+		        Onload=Timeline.loadEventEnd-Timeline.navigationStart;
+		        console.log('Dns:'+Dns+'ms Connect:'+Connect+'ms Response:'+Response+'ms Blank:'+Blank+'ms Domready:'+Domready+'ms Onload:'+Onload+'ms');
+		    }
+		})();
